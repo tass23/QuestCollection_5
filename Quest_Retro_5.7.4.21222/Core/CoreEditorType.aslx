@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <editor>
+    <appliesto>type</appliesto>
+    <tab>
+      <caption>[EditorTypeType]</caption>
+
+      <control>
+        <caption>[EditorTypeName]</caption>
+        <controltype>textbox</controltype>
+        <attribute>name</attribute>
+      </control>
+
+      <control>
+        <controltype>attributes</controltype>
+        <expand/>
+      </control>
+
+    </tab>
+
+  </editor>
+</library>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GameBrowser
+</name>
+</assembly>
+<members>
+<member name="T:GameBrowser.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:GameBrowser.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:GameBrowser.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:GameBrowser.My.Resources.Resources.loading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GameBrowser.My.Resources.Resources.quest">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:GameBrowser.BrowseFilter">
+<summary>
+BrowseFilter
+</summary>
+</member>
+<member name="M:GameBrowser.BrowseFilter.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.EditBrowser">
+<summary>
+EditBrowser
+</summary>
+</member>
+<member name="M:GameBrowser.EditBrowser.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.GameDescription">
+<summary>
+GameDescription
+</summary>
+</member>
+<member name="M:GameBrowser.GameDescription.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.GameList">
+<summary>
+GameList
+</summary>
+</member>
+<member name="M:GameBrowser.GameList.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.GameListItem">
+<summary>
+GameListItem
+</summary>
+</member>
+<member name="M:GameBrowser.GameListItem.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.Launcher">
+<summary>
+Launcher
+</summary>
+</member>
+<member name="M:GameBrowser.Launcher.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.PlayBrowser">
+<summary>
+PlayBrowser
+</summary>
+</member>
+<member name="M:GameBrowser.PlayBrowser.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.ReviewItem">
+<summary>
+ReviewItem
+</summary>
+</member>
+<member name="M:GameBrowser.ReviewItem.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.VersionInfo">
+<summary>
+VersionInfo
+</summary>
+</member>
+<member name="M:GameBrowser.VersionInfo.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:GameBrowser.EditorWelcome">
+<summary>
+EditorWelcome
+</summary>
+</member>
+<member name="M:GameBrowser.EditorWelcome.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <tab>
+    <parent>_ObjectEditor</parent>
+    <caption>[EditorObjectChildrenObjects]</caption>
+
+    <control>
+      <controltype>elementslist</controltype>
+      <elementtype>object</elementtype>
+      <objecttype>object</objecttype>
+      <expand/>
+    </control>
+
+  </tab>
+</library>
