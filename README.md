@@ -1,17 +1,14 @@
-# QuestPackage5.8.6752
-Custom version of Quest and Quest JS system for creating text adventures, and website conversion.
-Quest 5.8.6752 was edited by KVonGit, and Raist.
-QuestJS was edited by KVonGit, and Raist to convert Quest 5.8.6752 into an HTML file.
+# QuestCollection_5
+Custom version of Quest Retro and Quest Compiler systems for creating text adventures, and website conversion.
+Quest Retro 5.7.4.21222 was edited by KVonGit, and Raist.
+Quest Compiler was edited by KVonGit, and Raist to convert Quest 5.7.4.21222 into an HTML file.
 
 per the website: Quest lets you make interactive story games. Text adventure games like Zork and The Hitchhiker's Guide to the Galaxy. Gamebooks like the Choose Your Own Adventure and Fighting Fantasy books. You don't need to know how to program. All you need is a story to tell. Your game can be played anywhere. In a web browser, downloaded to a PC, or turned into an app.
 
 This specific version supports custom modifications for: turn-based combat with spells and weapons, NPC party member, via the addtional libraries listed below.
 
-Quest Default libraries:
-Quest_Tracker_Lib
-Score_Lib
+TE-RPG_Lib - Combined all the original libraries into one, along with additional functionality for the Quest Retro interface, including more features, and everything is fully described inside the library file. THe following libraries are contained within TE-RPG_Lib:
 
-Custom libraries:
 Spells_Lib - Words of Power, based on UO, in the form of Commands. In general, players must type [spell _name] [object], where spell_name is the Command and object is the target of the spell.<br/><br/>Includes a popup window for displaying the "spellbook" with the Uses Remaining and the Words of Power. This popup is only available IF the player is carrying the spellbook, and the same can be said for using the Words of Power (they are only available if the player is carrying the spellbook).<br/><br/>Spells/Words of Power:<br/>Each spell accounts performs a check against the spell target to determine if that spell can be cast on it (mob=True/False). The next check is for resistance. UO has the following resists/damage types:<br/><br/>Physical<br/>Fire<br/>Cold<br/>Poison<br/>Energy<br/><br/>Each spell fits into a primary damage category, i.e. Vas Flam is Fireball, so it does Fire damage. If a mob has Fire resist lower than X, the spell is cast, does damage, and the mob's health drops accordingly. Otherwise, the spell simply fails. This system could be adjusted to subtract a percentage based on the resist value, which would allow for more variations of damage. However, since each spell has a variable damage range, a single resist check functions more easily.
 
 TEHelp_Lib - The Expanse Offline Quest system complex HELP system.
